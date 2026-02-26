@@ -456,9 +456,39 @@ a {
     padding: 68px 0;
   }
 
-  .expertise-grid,
   .edu-grid {
     grid-template-columns: 1fr;
+  }
+
+  .expertise-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .icon-card {
+    min-height: 0;
+    padding: 14px;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .icon-card h4 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.35;
+  }
+
+  .icon-wrap {
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
+    flex-shrink: 0;
+  }
+
+  .icon-wrap svg {
+    width: 19px;
+    height: 19px;
   }
 
   .footer-content {
